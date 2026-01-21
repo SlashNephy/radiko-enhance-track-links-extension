@@ -1,3 +1,5 @@
+import jaconv from 'jaconv'
+
 export default defineContentScript({
   matches: ['https://radiko.jp/*'],
   main() {
@@ -42,13 +44,14 @@ function addSpotifyLink(element: Element, selectors: Selectors) {
     return
   }
 
-  // TODO: 半角化
-  const trackTitle = element.querySelector(selectors.title)?.textContent?.trim()
-  const trackArtist = element.querySelector(selectors.artist)?.textContent?.trim()
-  if (!trackTitle || !trackArtist) {
+  const rawTrackTitle = element.querySelector(selectors.title)?.textContent
+  const rawTrackArtist = element.querySelector(selectors.artist)?.textContent
+  if (!rawTrackTitle || !rawTrackArtist) {
     return
   }
 
+  const trackTitle = normalizeText(rawTrackTitle)
+  const trackArtist = normalizeText(rawTrackArtist)
   const linkGroup = element.querySelector(selectors.linkGroup)
   if (!linkGroup) {
     return
@@ -78,4 +81,8 @@ function addSpotifyLink(element: Element, selectors: Selectors) {
   linkGroup.prepend(li)
 
   element.setAttribute('data-spotify-link-added', 'true')
+}
+
+function normalizeText(text: string): string {
+  return jaconv.toHanAscii(text.trim())
 }
