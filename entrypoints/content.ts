@@ -65,7 +65,6 @@ function addSpotifyLink(element: Element, selectors: Selectors) {
     {
       a.classList.add('btn', 'btn--spotify')
       a.target = '_blank'
-      // TODO: 検索APIを使う
       a.href = `https://open.spotify.com/search/${encodeURIComponent(`${trackTitle} ${trackArtist}`)}`
 
       const img = document.createElement('img')
