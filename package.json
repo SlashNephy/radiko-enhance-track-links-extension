@@ -19,7 +19,7 @@
     "react-dom": "19.2.4"
   },
   "devDependencies": {
-    "@slashnephy/eslint-config": "3.0.190",
+    "@slashnephy/eslint-config": "3.0.192",
     "@types/react": "19.2.11",
     "@types/react-dom": "19.2.3",
     "@wxt-dev/module-react": "1.1.5",
