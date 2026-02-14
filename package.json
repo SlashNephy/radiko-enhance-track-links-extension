@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@slashnephy/eslint-config": "3.0.201",
-    "@types/react": "19.2.13",
+    "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
     "@wxt-dev/module-react": "1.1.5",
     "eslint": "9.39.2",
