@@ -22,7 +22,7 @@
     "@slashnephy/eslint-config": "3.0.268",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
-    "@wxt-dev/module-react": "1.2.1",
+    "@wxt-dev/module-react": "1.2.2",
     "eslint": "9.39.4",
     "typescript": "5.9.3",
     "wxt": "0.20.18"
