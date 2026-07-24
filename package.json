@@ -15,8 +15,8 @@
   },
   "dependencies": {
     "jaconv": "1.1.2",
-    "react": "19.2.7",
-    "react-dom": "19.2.7"
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
   },
   "devDependencies": {
     "@slashnephy/eslint-config": "3.0.357",
