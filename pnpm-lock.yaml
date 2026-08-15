@@ -29,7 +29,7 @@ importers:
         version: 19.2.4(@types/react@19.2.18)
       '@wxt-dev/module-react':
         specifier: 1.2.2
-        version: 1.2.2(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))(wxt@0.21.3(esbuild@0.28.2)(eslint@9.39.5(jiti@2.7.0))(oxc-parser@0.127.0)(rolldown@1.2.3)(typescript@6.0.3)(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0)))
+        version: 1.2.2(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))(wxt@0.21.4(esbuild@0.28.2)(eslint@9.39.5(jiti@2.7.0))(oxc-parser@0.127.0)(rolldown@1.2.3)(typescript@6.0.3)(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0)))
       eslint:
         specifier: 9.39.5
         version: 9.39.5(jiti@2.7.0)
@@ -37,8 +37,8 @@ importers:
         specifier: 6.0.3
         version: 6.0.3
       wxt:
-        specifier: 0.21.3
-        version: 0.21.3(esbuild@0.28.2)(eslint@9.39.5(jiti@2.7.0))(oxc-parser@0.127.0)(rolldown@1.2.3)(typescript@6.0.3)(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))
+        specifier: 0.21.4
+        version: 0.21.4(esbuild@0.28.2)(eslint@9.39.5(jiti@2.7.0))(oxc-parser@0.127.0)(rolldown@1.2.3)(typescript@6.0.3)(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))
 
 packages:
 
@@ -2265,9 +2265,6 @@ packages:
     resolution: {integrity: sha512-9fSjSaos/fRIVIp+xSJlE6lfwhES7LNtKaCBIamHsjr2na1BiABJPo0mOjjz8GJDURarmCPGqaiVg5mfjb98CQ==}
     engines: {node: '>= 0.4'}
 
-  get-port-please@3.2.0:
-    resolution: {integrity: sha512-I9QVvBw5U/hw3RmWpYKRumUeaDgxTPd401x364rLmWBJcOQ753eov1eTgzDqRG9bqFIfDc7gfzcQEWrUri3o1A==}
-
   get-proto@1.0.1:
     resolution: {integrity: sha512-sTSfBjoXBp89JvIKIefqw7U2CCebsc74kiY6awiGogKtoSGbgjYE/G/+l9sF3MWFPNc9IcoOC4ODfKHfxFmp0g==}
     engines: {node: '>= 0.4'}
@@ -2869,17 +2866,10 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  nano-spawn@2.1.0:
-    resolution: {integrity: sha512-yTW+2okrElHiH4fsiz/+/zc0EDo9BDDoC3iKk8dpv1GeRc9nUWzUZHx6TofMWErchhUQR8hY9/Eu1Uja9x1nqA==}
-    engines: {node: '>=20.17'}
-
   nanoid@3.3.18:
     resolution: {integrity: sha512-DTg4MJbGMWkfi6VZFdNt2/caMbQy4Ou+Op/hJQvGEWcnVfoA1QA+xzRKAzw9jD6+GVOOeYr/mIcuDSdug6F6+w==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
-
-  nanospinner@1.2.2:
-    resolution: {integrity: sha512-Zt/AmG6qRU3e+WnzGGLuMCEAO/dAu45stNbHY223tUxldaDAeE+FxSPsd9Q+j+paejmm0ZbrNVs5Sraqy3dRxA==}
 
   napi-postinstall@0.3.4:
     resolution: {integrity: sha512-PHI5f1O0EP5xJ9gQmFGMS6IZcrVvTjpXjz7Na41gTE7eE2hK11lg04CECCYEEjdc17EV4DO+fkGEtt7TpTaTiQ==}
@@ -2908,10 +2898,6 @@ packages:
 
   normalize-path@2.1.1:
     resolution: {integrity: sha512-3pKJwH184Xo/lnH6oyP1q2pMd7HcypqqmRs91/6/i2CGtWwIKGCkOOMTm/zXbgTEWHw1uNpNi/igc3ePOYHb6w==}
-    engines: {node: '>=0.10.0'}
-
-  normalize-path@3.0.0:
-    resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
     engines: {node: '>=0.10.0'}
 
   npm-package-arg@13.0.2:
@@ -3660,8 +3646,8 @@ packages:
     resolution: {integrity: sha512-h3Fbisa2nKGPxCpm89Hk33lBLsnaGBvctQopaBSOW/uIs6FTe1ATyAnKFJrzVs9vpGdsTe73WF3V4lIsk4Gacw==}
     engines: {node: '>=18'}
 
-  wxt@0.21.3:
-    resolution: {integrity: sha512-UXvzDmgYVdoZiqZyWuoJ5zpjaxCsBRz1fr3q9gVFfge4AeJr0SOA/ijzVRY3ot0L/INZviP4p1by5dCnnwt6bw==}
+  wxt@0.21.4:
+    resolution: {integrity: sha512-iyVMTXb37BQAbsPHCuPzrK3ZxnO9pZmvbKl7VJWIHe3RG40On2NyP2FOjArtOITO96plEYnh3o+iUlRp9qE90w==}
     engines: {bun: '>=1.2.0', node: '>=22'}
     hasBin: true
     peerDependencies:
@@ -5096,11 +5082,11 @@ snapshots:
       '@types/filesystem': 0.0.36
       '@types/har-format': 1.2.16
 
-  '@wxt-dev/module-react@1.2.2(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))(wxt@0.21.3(esbuild@0.28.2)(eslint@9.39.5(jiti@2.7.0))(oxc-parser@0.127.0)(rolldown@1.2.3)(typescript@6.0.3)(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0)))':
+  '@wxt-dev/module-react@1.2.2(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))(wxt@0.21.4(esbuild@0.28.2)(eslint@9.39.5(jiti@2.7.0))(oxc-parser@0.127.0)(rolldown@1.2.3)(typescript@6.0.3)(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0)))':
     dependencies:
       '@vitejs/plugin-react': 6.0.5(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))
       vite: 8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0)
-      wxt: 0.21.3(esbuild@0.28.2)(eslint@9.39.5(jiti@2.7.0))(oxc-parser@0.127.0)(rolldown@1.2.3)(typescript@6.0.3)(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))
+      wxt: 0.21.4(esbuild@0.28.2)(eslint@9.39.5(jiti@2.7.0))(oxc-parser@0.127.0)(rolldown@1.2.3)(typescript@6.0.3)(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))
     transitivePeerDependencies:
       - '@rolldown/plugin-babel'
       - babel-plugin-react-compiler
@@ -6239,8 +6225,6 @@ snapshots:
       hasown: 2.0.4
       math-intrinsics: 1.1.0
 
-  get-port-please@3.2.0: {}
-
   get-proto@1.0.1:
     dependencies:
       dunder-proto: 1.0.1
@@ -6781,13 +6765,7 @@ snapshots:
 
   ms@2.1.3: {}
 
-  nano-spawn@2.1.0: {}
-
   nanoid@3.3.18: {}
-
-  nanospinner@1.2.2:
-    dependencies:
-      picocolors: 1.1.1
 
   napi-postinstall@0.3.4: {}
 
@@ -6813,8 +6791,6 @@ snapshots:
   normalize-path@2.1.1:
     dependencies:
       remove-trailing-separator: 1.1.0
-
-  normalize-path@3.0.0: {}
 
   npm-package-arg@13.0.2:
     dependencies:
@@ -7681,7 +7657,7 @@ snapshots:
     dependencies:
       is-wsl: 3.1.1
 
-  wxt@0.21.3(esbuild@0.28.2)(eslint@9.39.5(jiti@2.7.0))(oxc-parser@0.127.0)(rolldown@1.2.3)(typescript@6.0.3)(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0)):
+  wxt@0.21.4(esbuild@0.28.2)(eslint@9.39.5(jiti@2.7.0))(oxc-parser@0.127.0)(rolldown@1.2.3)(typescript@6.0.3)(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0)):
     dependencies:
       '@1natsu/wait-element': 4.2.0
       '@aklinker1/rollup-plugin-visualizer': 5.12.0
@@ -7699,23 +7675,17 @@ snapshots:
       defu: 6.1.7
       dotenv-expand: 13.0.0
       filesize: 11.0.22
-      get-port-please: 3.2.0
       giget: 3.3.1
       hookable: 6.1.1
-      is-wsl: 3.1.1
       json5: 2.2.3
       linkedom: 0.18.13
       magicast: 0.5.4
-      nano-spawn: 2.1.0
-      nanospinner: 1.2.2
-      normalize-path: 3.0.0
       nypm: 0.6.9
-      ohash: 2.0.11
       picomatch: 4.0.5
       publish-browser-extension: 6.1.0
-      scule: 1.3.0
       superlock: 1.3.5
       tiny-open: 1.3.0
+      tinyexec: 1.3.0
       tinyglobby: 0.2.17
       unimport: 6.4.0(esbuild@0.28.2)(oxc-parser@0.127.0)(rolldown@1.2.3)(vite@8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))
       vite: 8.2.1(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0)
