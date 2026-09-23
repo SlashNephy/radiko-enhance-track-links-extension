@@ -19,8 +19,8 @@ importers:
         version: 19.3.0(react@19.3.0)
     devDependencies:
       '@slashnephy/eslint-config':
-        specifier: 3.0.464
-        version: 3.0.464(@types/node@26.6.2)(@typescript-eslint/eslint-plugin@8.70.0(@typescript-eslint/parser@8.70.0(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/parser@8.70.0(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(eslint@9.39.5(jiti@2.7.0))
+        specifier: 3.0.467
+        version: 3.0.467(@types/node@26.6.2)(@typescript-eslint/eslint-plugin@8.70.0(@typescript-eslint/parser@8.70.0(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/parser@8.70.0(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(eslint@9.39.5(jiti@2.7.0))
       '@types/react':
         specifier: 19.3.0
         version: 19.3.0
@@ -477,11 +477,11 @@ packages:
     resolution: {integrity: sha512-/mn4UXziHzGXnKCg+r8HGgPy+w4RzpgdoqFuqaKOqUVBT5x2CygGefIrO4SusaY7t0C4gyIWMNu6YQT6Jw64Cw==}
     engines: {node: '>= 14'}
 
-  '@microsoft/tsdoc-config@0.18.1':
-    resolution: {integrity: sha512-9brPoVdfN9k9g0dcWkFeA7IH9bbcttzDJlXvkf8b2OBzd5MueR1V2wkKBL0abn0otvmkHJC6aapBOTJDDeMCZg==}
+  '@microsoft/tsdoc-config@0.18.2':
+    resolution: {integrity: sha512-4ymuLTQ9lFwJXK15f41iPcNHflymjk02Ltq5f5wo3fA02O1nHIGSc1TIZwzTSQZep+jXHM644jobt4Q8O3vtqg==}
 
-  '@microsoft/tsdoc@0.16.0':
-    resolution: {integrity: sha512-xgAyonlVVS+q7Vc7qLW0UrJU7rSFcETRWsqdXZtjzRU8dF+6CkozTK4V4y1LwOX7j8r/vHphjDeMeGI4tNGeGA==}
+  '@microsoft/tsdoc@0.17.0':
+    resolution: {integrity: sha512-p68VexhnH7ojf3U27RdryUDqnKJgKaWUbCL96vJR7N0mqDuhKG5OIECk3sCPPdynxjk+yoVhRkScqtv5KQjzsw==}
 
   '@napi-rs/wasm-runtime@1.2.4':
     resolution: {integrity: sha512-AJxoUD2/15ESHbvpcyjU274nsAPLuOtPHCk0vKJM5pj//Fg/B1FXNWjPnXTT9PymCYYiHo4zPj0ZomXBKhoy7g==}
@@ -614,8 +614,8 @@ packages:
   '@rolldown/pluginutils@1.0.1':
     resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
 
-  '@slashnephy/eslint-config@3.0.464':
-    resolution: {integrity: sha512-SigxxyPTswhSNPkyA17Lc2pnQUawKret6K5Yd2yMTg9JdPgUbzkPdrf7V4UstakAO0KSnORsJaaJLhe07PsDuA==}
+  '@slashnephy/eslint-config@3.0.467':
+    resolution: {integrity: sha512-oIf/fiPCYdUijKoUVSTOj/lr31s9z0mtdOKfLLNu2RK6+qo9EQzTZR0f12bWbCVNQckw2Pfy4aMmoxd8ZtNLeA==}
     engines: {node: '>= 24'}
     peerDependencies:
       eslint: ^10
@@ -1466,8 +1466,13 @@ packages:
     peerDependencies:
       eslint: '>=8'
 
-  eslint-plugin-tsdoc@0.5.2:
-    resolution: {integrity: sha512-BlvqjWZdBJDIPO/YU3zcPCF23CvjYT3gyu63yo6b609NNV3D1b6zceAREy2xnweuBoDpZcLNuPyAUq9cvx6bbQ==}
+  eslint-plugin-tsdoc@0.5.3:
+    resolution: {integrity: sha512-WVG/kTgaJuTaAyHqTFmJ6W6rD6vV5UTHjw9ipMPA0fcmHLbJSLPvnY645p0N5bidRGTkboNEYrkOufnhC6RYXw==}
+    peerDependencies:
+      eslint: '>=7'
+    peerDependenciesMeta:
+      eslint:
+        optional: true
 
   eslint-plugin-unused-imports@4.4.1:
     resolution: {integrity: sha512-oZGYUz1X3sRMGUB+0cZyK2VcvRX5lm/vB56PgNNcU+7ficUCKm66oZWKUubXWnOuPjQ8PvmXtCViXBMONPe7tQ==}
@@ -3285,14 +3290,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@microsoft/tsdoc-config@0.18.1':
+  '@microsoft/tsdoc-config@0.18.2':
     dependencies:
-      '@microsoft/tsdoc': 0.16.0
+      '@microsoft/tsdoc': 0.17.0
       ajv: 8.18.0
       jju: 1.4.0
       resolve: 1.22.12
 
-  '@microsoft/tsdoc@0.16.0': {}
+  '@microsoft/tsdoc@0.17.0': {}
 
   '@napi-rs/wasm-runtime@1.2.4(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)':
     dependencies:
@@ -3373,7 +3378,7 @@ snapshots:
 
   '@rolldown/pluginutils@1.0.1': {}
 
-  '@slashnephy/eslint-config@3.0.464(@types/node@26.6.2)(@typescript-eslint/eslint-plugin@8.70.0(@typescript-eslint/parser@8.70.0(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/parser@8.70.0(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(eslint@9.39.5(jiti@2.7.0))':
+  '@slashnephy/eslint-config@3.0.467(@types/node@26.6.2)(@typescript-eslint/eslint-plugin@8.70.0(@typescript-eslint/parser@8.70.0(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/parser@8.70.0(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(eslint@9.39.5(jiti@2.7.0))':
     dependencies:
       '@eslint-community/eslint-plugin-eslint-comments': 4.8.1(eslint@9.39.5(jiti@2.7.0))
       '@eslint-react/eslint-plugin': 5.19.1(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3)
@@ -3398,7 +3403,7 @@ snapshots:
       eslint-plugin-react-refresh: 0.5.7(eslint@9.39.5(jiti@2.7.0))
       eslint-plugin-relay: 2.1.0
       eslint-plugin-storybook: 10.6.0(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3)
-      eslint-plugin-tsdoc: 0.5.2(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3)
+      eslint-plugin-tsdoc: 0.5.3(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3)
       eslint-plugin-unused-imports: 4.4.1(@typescript-eslint/eslint-plugin@8.70.0(@typescript-eslint/parser@8.70.0(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(eslint@9.39.5(jiti@2.7.0))
       eslint-plugin-userscripts: 0.5.6(eslint@9.39.5(jiti@2.7.0))
       eslint-plugin-xss: 0.1.12
@@ -4282,13 +4287,14 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-plugin-tsdoc@0.5.2(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3):
+  eslint-plugin-tsdoc@0.5.3(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3):
     dependencies:
-      '@microsoft/tsdoc': 0.16.0
-      '@microsoft/tsdoc-config': 0.18.1
+      '@microsoft/tsdoc': 0.17.0
+      '@microsoft/tsdoc-config': 0.18.2
       '@typescript-eslint/utils': 8.56.1(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3)
+    optionalDependencies:
+      eslint: 9.39.5(jiti@2.7.0)
     transitivePeerDependencies:
-      - eslint
       - supports-color
       - typescript
 
