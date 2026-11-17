@@ -19,8 +19,8 @@ importers:
         version: 19.3.1(react@19.3.1)
     devDependencies:
       '@slashnephy/eslint-config':
-        specifier: 3.0.575
-        version: 3.0.575(@types/node@26.6.6)(@typescript-eslint/eslint-plugin@8.72.2(@typescript-eslint/parser@8.72.2(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/parser@8.72.2(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(eslint@9.39.5(jiti@2.7.0))
+        specifier: 3.0.576
+        version: 3.0.576(@types/node@26.6.6)(@typescript-eslint/eslint-plugin@8.72.2(@typescript-eslint/parser@8.72.2(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/parser@8.72.2(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(eslint@9.39.5(jiti@2.7.0))
       '@types/react':
         specifier: 19.3.0
         version: 19.3.0
@@ -637,8 +637,8 @@ packages:
   '@rolldown/pluginutils@1.1.1':
     resolution: {integrity: sha512-glFIJDvLNDtJhT9qrMFWLPbvS+skxgt4L0K8Ei2YtnhPysAJnsI7nyxSJxKj4ADeKX0OLjC4ntRkwpLOoS3rwA==}
 
-  '@slashnephy/eslint-config@3.0.575':
-    resolution: {integrity: sha512-/zR4YPhB+PWjZL/H8hsaoxOHNrh/jWOiIvV15d/jEouH/NKmihj6PkhsnwrunXCBmAhceEuc3eAoGWJ/GsEQ/A==}
+  '@slashnephy/eslint-config@3.0.576':
+    resolution: {integrity: sha512-gjOOj2XJF7fWAgCY8Z7LKqu9dfecyxXDZcTghf4PEgWC5SYEG3C0kQY1JLbT7atFH10Qb59tex1GLBrIX/QB0g==}
     engines: {node: '>= 24'}
     peerDependencies:
       eslint: ^10
@@ -1519,8 +1519,8 @@ packages:
     resolution: {integrity: sha512-MEDnTfVhWycsIt6FmzgVmfYmpkipN1K1z54MozOB0t/x8XPPbPTbHM17Kh6qUBGWk4G16oTC66PpufqcSOwC7A==}
     engines: {node: '>=22'}
 
-  eslint-plugin-storybook@10.6.6:
-    resolution: {integrity: sha512-3bQT92I/MU2yZeBjIm+v2pe6q55V764jCMccUg+OSLsGOdJ+nRZ80W8FpjbecpdBdkO80yR56jVcqLFamDwZUA==}
+  eslint-plugin-storybook@10.6.7:
+    resolution: {integrity: sha512-L+dSHmoFxgPEuaMxuEq3mYMBVeDZnWq/vL4QK3b7JdjAA4SRZsXrl/teYoB2x+5SKkMEtIBZZYb+OL0NALGv+w==}
     peerDependencies:
       eslint: '>=8'
 
@@ -3459,7 +3459,7 @@ snapshots:
 
   '@rolldown/pluginutils@1.1.1': {}
 
-  '@slashnephy/eslint-config@3.0.575(@types/node@26.6.6)(@typescript-eslint/eslint-plugin@8.72.2(@typescript-eslint/parser@8.72.2(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/parser@8.72.2(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(eslint@9.39.5(jiti@2.7.0))':
+  '@slashnephy/eslint-config@3.0.576(@types/node@26.6.6)(@typescript-eslint/eslint-plugin@8.72.2(@typescript-eslint/parser@8.72.2(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(@typescript-eslint/parser@8.72.2(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(eslint@9.39.5(jiti@2.7.0))':
     dependencies:
       '@eslint-community/eslint-plugin-eslint-comments': 4.8.1(eslint@9.39.5(jiti@2.7.0))
       '@eslint-react/eslint-plugin': 5.30.1(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3)
@@ -3484,7 +3484,7 @@ snapshots:
       eslint-plugin-react-hooks: 7.1.1(eslint@9.39.5(jiti@2.7.0))
       eslint-plugin-react-refresh: 0.5.7(eslint@9.39.5(jiti@2.7.0))
       eslint-plugin-relay: 2.1.0
-      eslint-plugin-storybook: 10.6.6(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3)
+      eslint-plugin-storybook: 10.6.7(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3)
       eslint-plugin-tsdoc: 0.5.4(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3)
       eslint-plugin-unused-imports: 4.4.1(@typescript-eslint/eslint-plugin@8.72.2(@typescript-eslint/parser@8.72.2(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3))(eslint@9.39.5(jiti@2.7.0))
       eslint-plugin-userscripts: 0.5.6(eslint@9.39.5(jiti@2.7.0))
@@ -4386,7 +4386,7 @@ snapshots:
     dependencies:
       graphql: 16.15.0
 
-  eslint-plugin-storybook@10.6.6(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3):
+  eslint-plugin-storybook@10.6.7(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3):
     dependencies:
       '@typescript-eslint/types': 8.72.2
       '@typescript-eslint/utils': 8.72.2(eslint@9.39.5(jiti@2.7.0))(typescript@6.0.3)
